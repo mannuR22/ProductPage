@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    margin: 0 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+div#cover {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+div#innerScreen {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tshirtImg{
+    width: 100%;
+}
+
+.card{
+    width: 40%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+    background-color: #8ecae6;
+    color: #023047;
+    border-radius: 1em;
+    font-family: 'Libre Baskerville', serif;
+}
